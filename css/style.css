@@ -1,15 +1,3 @@
-/*---------------------------------------------------------------------------------
-
-Master Stylesheet
-
-	Template:	 Unika - Responsive One Page HTML5 Template
-	Author:		 imransdesign.com
-	URL:		 http://imransdesign.com/
-    Designed By: https://www.behance.net/poljakova
-	Version:	1.0	
-
----------------------------------------------------------------------------------*/
-
 html {
 	height: 100% !important;
 }
@@ -432,49 +420,6 @@ a.rotate-box-1:hover, a.rotate-box-2:hover {
 /* ===== End rotate boxes ===== */
 
 
-/* ===== Begin progress bar ===== */
-.skill-bar {
-}
-.progress {
-	overflow: visible;
-	height: 25px;
-	margin-bottom: 20px;
-	-webkit-box-shadow: none;
-	box-shadow: none;
-}
-.progress .percent {
-	position: relative;
-	background-color: #222;
-	padding: 7px;
-	color: #FFF;
-	top: -23px;
-}
-.progress .percent:after {
-	content: "";
-	position: absolute;
-	left: 50%;
-	margin-left: -4px;
-	bottom: -4px;
-	width: 0;
-	height: 0;
-	border-left: 4px solid rgba(0, 0, 0, 0);
-	border-right: 4px solid rgba(0, 0, 0, 0);
-	border-top: 4px solid #222;
-}
-.progress-bar {
-	font-size: 10px;
-	line-height: 7px;
-	text-align: right;
-	-webkit-box-shadow: none;
-	box-shadow: none;
-}
-.progress-lebel h6{
-	margin-bottom: 10px;
-	letter-spacing: 2px;
-}
-/* ===== End progress bar ===== */
-
-
 /* Begin cta section */
 #cta-section {
 	padding: 50px 0 80px;
@@ -483,191 +428,6 @@ a.rotate-box-1:hover, a.rotate-box-2:hover {
 	margin-top: 30px;
 }
 /* End cta section */
-
-/* Begin ethics section */
-#ethics-section {
-	padding: 50px 0 80px;
-}
-.ethics-btn {
-	margin-top: 30px;
-}
-/* End ethics section */
-
-
-/* ===== Begin testimonial ===== */
-.testimonial {
-	position: relative;
-	overflow: hidden;
-	padding: 80px 0;
-}
-
-.testimonial .cover {
-	
-}
-.testimonial-inner {
-	position: relative;
-	max-width: 800px;
-	z-index: 9;
-}
-.testimonial-inner .heading {
-	margin-bottom: 20px;
-}
-.testimonial-inner blockquote {
-	border: none;
-}
-.testimonial-inner blockquote p {
-	letter-spacing: 2px;
-	padding-bottom: 20px;
-}
-.testimonial-inner blockquote cite {
-	font-style: normal;
-	color: #fff;
-	font-size: 1.5em;
-}
-/* ===== End testimonial ===== */
-
-
-/* ===== Begin Portfolio===== */
-.portfolio_area{}
-.portfolio{}
-.portfoloi_top{}
-.portfoloi_content_area{}
-.portfolio_menu{
-	text-align: center;
-	overflow: hidden;
-	margin-top:22px;
-	margin-bottom:48px;
-}
-.portfolio_menu ul{
-	list-style: none outside none;
-    text-align: center;
-}
-.portfolio_menu ul li{
-    display: inline-block;
-}
-.portfolio_menu ul li a{
-	color: #363940;
-	background: transparent;
-    display: inline-block;
-    margin: 4px;
-    padding: 8px 10px;
-    text-decoration: none;
-    text-transform: uppercase;
-}
-.portfolio_content{}
-.portfolio_single_content{
-	position: relative;
-	top: 0;
-	left: 0;
-	width: 100%;
-	z-index: 5;
-	margin-bottom:30px;
-	overflow:hidden;
-	
-}
-.portfolio_single_content:hover img{
-	 -o-transform: scale(2);
-	 -webkit-transform: scale(2);
-	 -moz-transform: scale(2);
-	 -ms-transform: scale(2);
-	 transform: scale(2);
-}
-.portfolio_single_content img{
-	width: 100%;
-	position: relative;
-	top: 0;
-	left: 0;
-	z-index: 6;
-	cursor:pointer;
-	-moz-transition:all 1s;
-	-webkit-transition:all 1s;
-	-o-transition:all 1s;
-	-ms-transition:all 1s;
-	transition:all 1s;
-}
-.portfolio_single_content .canv{
-	width:100% !important;
-	height:100% !important;
-}
-.portfolio_single_content div+div{
-	background: none repeat scroll 0 0 rgba(255,255,255,.9);
-	bottom: -100%;
-	color: #FFC000;
-	font-weight: bold;
-	left: 0;
-	margin: 0;
-	min-height: 90px;
-	padding:31px 5px 0 10px;
-	position: absolute;
-	width: 100%;
-	z-index: 12;
-	border-top:0;
-}
-/*.portfolio_single_content:hover div+div{bottom: 0;}*/
-.portfolio_single_content div{
-	position:absolute;
-	top:0;
-	left:0;
-	z-index:10;
-	width:100%;
-	height:100%;
-	text-align:center;
-	transform:scale(0);
-	transition:all .6s;
-	opacity:0;
-}
-.portfolio_single_content:hover div{
-	transform:scale(1);
-	opacity:1;
-}
-.portfolio_single_content div a{
-	color: #FFFFFF;
-	display: block;
-	font-size: 18px;
-	font-weight: bold;
-	margin-top: 40%;
-	padding-bottom: 10px;
-	text-decoration: none;
-	text-transform: uppercase;
-}
-.portfolio_single_content div span{
-	color: #FFFFFF;
-	font-size: 14px;
-	font-weight: normal;
-	margin: 0;
-	padding: 0;
-	text-transform: uppercase;
-}
-.portfolio_content{}
-.portfolio_content{
-    margin-top: 36px;
-    overflow: hidden;
-}
-/* ===== End Portfolio===== */
-
-
-/* ===== Begin Counter-Up ===== */
-.counter-up {
-	position: relative;
-	background-color: #171717;
-	padding: 80px 0 50px 0;
-}
-.counter-up .cover {
-	background-color: rgba(0, 7, 11, 0.8);
-}
-.counter-up .fact {
-}
-.counter-up .fact.last {
-	border-right: none;
-}
-.counter-up .fact-inner {
-	padding-bottom: 30px;
-}
-.counter-up .fact-inner .counter {
-	font-size: 60px;
-}
-/* ===== End Counter-Up ===== */
-
 
 /* ===== Begin team ===== */
 .team-item {
@@ -820,85 +580,7 @@ a.rotate-box-1:hover, a.rotate-box-2:hover {
 }
 /* ===== End prices ===== */
 
-
-/* ===== Begin social ===== */
-#social-section {
-	padding: 80px 0;
-}
-ul.social-list {
-	text-align: center;
-	margin: 0 auto;
-}
-ul.social-list li{
-	display: inline-block;
-	margin-right: 20px;
-}
-ul.social-list li .rotate-box-1 {
-	margin: 0;
-}
-ul.social-list li a i {
-	color: #fff;
-	font-size:20px;
-}
-/* ===== End social ===== */
-
-
-/* ===== Begin contact ===== */
-#contact-section {
-	position: relative;
-}
-#contact-section h4 {
-	font-weight: 400;
-}
-#contact-section .cover {
-	background-color: rgba(5, 8, 11, 0.93);
-}
-#contact-section .contact .contact-form {
-	margin-bottom: 40px;
-}
-#contact-section .contact .contact-form h4 {
-	margin-bottom: 25px;
-}
-#contact-section .contact .contact-form .input-lg {
-	font-size: 14px;
-}
-#contact-section .contact .contact-form button {
-	width: 100%;
-	height: 40px;
-}
-#contact-section .contact .contact-form button:hover {
-	color: #fff;
-}
-#contact-section .contact .form-control {
-	background-color: rgba(255, 255, 255, 0.06);
-	border-color: #2A2A2A;
-}
-#contact-section .contact .form-control:focus {
-	background-color: #171717;
-	box-shadow: none;
-}
-
-ul.contact-address {
-	float: left;
-	width: 100%;
-	padding: 0;
-	margin: 15px 0 ;
-}
-ul.contact-address li {
-	padding: 0 0 20px;
-	margin: 0;
-}
-ul.contact-address li:last-child {
-	padding-bottom: 0;
-}
-ul.contact-address li i {
-	margin-right: 10px;
-}
-/* ===== End contact ===== */
-
-
 /***** Footer *****/
-
 footer {
 	padding: 40px 0 0 0;
 	background:#524F4F;
@@ -1173,7 +855,7 @@ p.subtitle {
 
 
 
-/* =====Footer Social Button Media Query ===== */
+/* =====BEGIN Footer Social Button Media Query ===== */
 @media(max-width:1199px) {
     ul.banner-social-buttons {
         margin-top: 15px;
@@ -1191,3 +873,5 @@ p.subtitle {
         margin-bottom: 0;
     }
 }
+
+/* =====END Footer Social Button Media Query ===== */
