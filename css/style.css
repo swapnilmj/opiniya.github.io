@@ -309,9 +309,6 @@ section {
 	overflow: hidden;
 	background-repeat: no-repeat;
 	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	-ms-background-size: cover;
 	background-size: cover;
 }
 .logo {
