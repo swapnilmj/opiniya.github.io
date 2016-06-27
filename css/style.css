@@ -307,7 +307,7 @@ section {
   background-image: url(../img/doctorimg.jpg);
   background-size: auto;
   background-position: top center;
-  background-attachment: fixed;
+  
   overflow: hidden; 
   background-repeat: no-repeat;
   -webkit-background-size: cover;
