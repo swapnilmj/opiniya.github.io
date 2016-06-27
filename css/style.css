@@ -1,6 +1,6 @@
-html {
+/*html {
 	height: 100% !important;
-}
+}*/
 body {
 	position: relative;
 	height: 100%;
@@ -264,7 +264,7 @@ section {
 /* ===== Begin intro ===== */
 /* Begin text carousel intro */
 #text-carousel-intro-section {
-	height: 1000px;
+	height:1020px;
 }
 #text-carousel-intro-section .container {
 	height: 75%;/*--------------------------------Logo Top margin- 60% from top-----------*/
@@ -871,7 +871,7 @@ ul.banner-social-buttons {
 	
 	margin-top: 15px; /*====-----Footer Social Button =====---*/
 }
-	#text-carousel-intro-section .container { height:45%;}
+	#text-carousel-intro-section { height:600px;}
 }
 
 @media(max-width:767px) {
@@ -883,7 +883,7 @@ ul.banner-social-buttons li {
 ul.banner-social-buttons li:last-child {
 	margin-bottom: 0;
 }
-	#text-carousel-intro-section .container { height:45%;}
+	#text-carousel-intro-section { height:600px;}
 }
 
 /* =====END Footer Social Button Media Query ===== */
