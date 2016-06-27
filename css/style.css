@@ -299,22 +299,17 @@ section {
 }
 
 .doctorimg-box {
-	position: relative;
-	height: auto;
-	background-position: top center;
-	height:auto;
-	overflow:hidden;
-	
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	-webkit-background-size: cover;
-	background-size: cover;
-	
-	
-	
-	
-	
-	
+  position: relative;
+  height:auto;
+  background-image: url(../img/doctorimg.jpg);
+  background-size: auto;
+  background-position: top center;
+  background-attachment: fixed;
+  overflow: hidden; 
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  	background-size: cover;
+
 }
 .logo {
 	height: 30%;
@@ -874,6 +869,7 @@ p.subtitle {
 ul.banner-social-buttons {
 	margin-top: 15px; /*====-----Footer Social Button =====---*/
 }
+ /*--------BG image size media*/
 }
 
 @media(max-width:767px) {
@@ -885,6 +881,7 @@ ul.banner-social-buttons li {
 ul.banner-social-buttons li:last-child {
 	margin-bottom: 0;
 }
+-----BG image size media*/
 }
 
 /* =====END Footer Social Button Media Query ===== */
