@@ -856,9 +856,7 @@ p.subtitle {
 ul.banner-social-buttons {
 	margin-top: 15px; /*====-----Footer Social Button =====---*/
 }
-.doctorimg-box {
-	background-image: url(../img/doctorimg-small.jpg);
-} /*--------BG image size media*/
+ /*--------BG image size media*/
 }
 
 @media(max-width:767px) {
@@ -870,9 +868,7 @@ ul.banner-social-buttons li {
 ul.banner-social-buttons li:last-child {
 	margin-bottom: 0;
 }
-.doctorimg-box {
-	background-image: url(../img/doctorimg-small.jpg);
-} /*--------BG image size media*/
+-----BG image size media*/
 }
 
 /* =====END Footer Social Button Media Query ===== */
