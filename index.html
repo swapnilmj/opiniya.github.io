@@ -22,7 +22,8 @@
 
 <!-- Libs and Plugins CSS -->
 <link rel="stylesheet" href="inc/bootstrap/css/bootstrap.min.css">
-<link rel="stylesheet" href="inc/animations/css/animate.min.css">
+<!--<link rel="stylesheet" href="inc/animations/css/animate.min.css">-->
+<link rel="stylesheet" href="css/animate.css">
 <link rel="stylesheet" href="inc/font-awesome/css/font-awesome.min.css">
 <!-- Font Icons -->
 <link rel="stylesheet" href="inc/owl-carousel/css/owl.carousel.css">
@@ -52,39 +53,61 @@
 <body data-spy="scroll" data-target="#main-navbar">
 <div class="page-loader"></div>
 <!-- Display loading image while page loads -->
-<div class="body">
-
-<!--========== BEGIN HEADER ==========-->
-<header id="header" class="header-main"> 
+<div class="body"> 
   
-  <!-- Begin Navbar -->
-  <nav id="main-navbar" class="navbar navbar-default navbar-fixed-top" role="navigation"> <!-- Classes: navbar-default, navbar-inverse, navbar-fixed-top, navbar-fixed-bottom, navbar-transparent. Note: If you use non-transparent navbar, set "height: 98px;" to #header -->
+  <!--========== BEGIN HEADER ==========-->
+  <header id="header" class="header-main"> 
     
-    <div class="container"> 
-      <!-- Brand and toggle get grouped for better mobile display -->
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-        <a class="navbar-brand page-scroll" href="body">Opiniya</a> </div>
+    <!-- Begin Navbar -->
+    <nav id="main-navbar" class="navbar navbar-default navbar-fixed-top" role="navigation"> <!-- Classes: navbar-default, navbar-inverse, navbar-fixed-top, navbar-fixed-bottom, navbar-transparent. Note: If you use non-transparent navbar, set "height: 98px;" to #header -->
       
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav navbar-right">
-          <li><a class="page-scroll" href="body">Home</a></li>
-          <li><a class="page-scroll" href="#about-section">About Us</a></li>
-          <li><a class="page-scroll" href="#cta-section">Benefits</a></li>
-          <li><a class="page-scroll" href="#work-section">How It Works</a></li>
-          <li><a class="page-scroll" href="#footer-section">Contact Us</a></li>
-        </ul>
+      <div class="container"> 
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+          <a class="navbar-brand page-scroll" href="body">Opiniya</a> </div>
+        
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a class="page-scroll" href="body">Home</a></li>
+            <li><a class="page-scroll" href="#about-section">About Us</a></li>
+            <li><a class="page-scroll" href="#cta-section">Benefits</a></li>
+            <li><a class="page-scroll" href="#work-section">How It Works</a></li>
+            <li><a class="page-scroll" href="#footer-section">Contact Us</a></li>
+          </ul>
+        </div>
+        <!-- /.navbar-collapse --> 
       </div>
-      <!-- /.navbar-collapse --> 
+      <!-- /.container --> 
+    </nav>
+    <!-- End Navbar --> 
+  </header>
+  <!-- ========= END HEADER =========--> 
+  
+  <!--=========== BEGIN NEW TEXT CAROUSEL INTRO SECTION ================-->
+  
+  <section id="text-carousel-intro-section" class="doctorimg-box" data-stellar-background-ratio="0.5"> 
+    <!--<div class="fore-bird"></div>-->
+    <div class="container">
+      <div class="caption text-center text-white" data-stellar-ratio="0.3">
+        <div id="owl-intro-text" class="owl-carousel">
+          <div class="item"><img src="img/light-color.svg" alt=""/>
+            <h2 style="color:#2c3e50">expert opinion on your medical condition</h2>
+            <div class="extra-space-l"></div>
+            <a class="btn btn-blank page-scroll" href="#about-section">
+            <p>Know More!</p>
+            </a> </div>
+        </div>
+      </div>
+      <!-- /.caption --> 
     </div>
     <!-- /.container --> 
-  </nav>
-  <!-- End Navbar --> 
-</header>
-<!-- ========= END HEADER =========--> 
-
-<!--=========== BEGIN TEXT CAROUSEL INTRO SECTION ================-->
+  </section>
+  
+  <!--=========== END NEW TEXT CAROUSEL INTRO SECTION ================--> 
+  
+  <!--=========== BEGIN TEXT CAROUSEL INTRO SECTION ================--
 
 <section id="text-carousel-intro-section" class="parallax" data-stellar-background-ratio="0.5" style="background-image: url(img/5.jpg);">
   <div class="container">
@@ -98,296 +121,208 @@
           </a> </div>
       </div>
     </div>
-    <!-- /.caption --> 
+    <!-- /.caption -- 
   </div>
-  <!-- /.container --> 
+  <!-- /.container -- 
   
 </section>
 <!--=========== END TEXT CAROUSEL INTRO SECTION ================--> 
-
-<!--=========== BEGIN ABOUT SECTION ================-->
-
-<section id="about-section" class="page text-center">
-  <div class="page-header-wrapper">
-    <div class="container">
-      <div class="page-header text-center wow fadeInUp" data-wow-delay="0.3s">
-        <h3 style="color:#4e7ac7">About Us</h3>
-        <div class="devider"></div>
-        <p class="subtitle">Little information</p>
-      </div>
-    </div>
-  </div>
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-12 col-md-12">
-        <div class="about_area"> 
-          <!-- START ABOUT HEADING -->
-          <div class="heading">
-            <p align="justify">Being informed is critical in deciding your medical choice of treatment. And we make sure that you know about your diagnosis and choices for treatment options by providing the expert second opinion on your medical problems. We are specialized in reviewing your current treatment plan and come up with the comprehensive conclusions. Our specialist doctors from the expert panel study your case and make you aware about your options. Currently we are operating in Pune only. We will be coming to your city shortly if you are not from Pune.</p>
-          </div>
-          <br>
-          <br>
-          <br>
-          
-          <!-- START ABOUT CONTENT -->
-          <div class="about_content">
-            <div class="row">
-              <div class="col-lg-6 col-md-6 col-sm-12">
-                <div class="about_featured">
-                  <div class="panel-group" id="accordion"> 
-                    <!-- START SINGLE FEATURED ITEAM #1-->
-                    <div class="panel panel-default wow fadeInLeft">
-                      <div class="panel-heading">
-                        <h4 class="panel-title"> <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
-                          <p>When to ask for second opinion -</p>
-                          </a> </h4>
-                      </div>
-                      <div id="collapseOne" class="panel-collapse collapse in">
-                        <div class="panel-body">
-                          <ul style="text-align:left">
-                            <li>
-                              <p><i class="glyphicon glyphicon-star"></i> &nbsp;Before having surgery</p>
-                            </li>
-                            <br>
-                            <li>
-                              <p><i class="glyphicon glyphicon-star"></i> &nbsp;New diagnosis</p>
-                            </li>
-                            <br>
-                            <li>
-                              <p><i class="glyphicon glyphicon-star"></i> &nbsp;Costly treatment</p>
-                            </li>
-                            <br>
-                            <li>
-                              <p><i class="glyphicon glyphicon-star"></i> &nbsp;Change in medication</p>
-                            </li>
-                            <br>
-                            <li>
-                              <p><i class="glyphicon glyphicon-star"></i> &nbsp;Planning treatments after surgery</p>
-                            </li>
-                            <br>
-                            <li>
-                              <p><i class="glyphicon glyphicon-star"></i> &nbsp;Whenever you think it is going to affect your health</p>
-                            </li>
-                            <br>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-6 col-md-6 col-sm-12">
-                <div class="about_featured">
-                  <div class="panel-group" id="accordion1">
-                    <div class="panel panel-default wow fadeInLeft">
-                      <div class="panel-heading">
-                        <h4 class="panel-title"> <a data-toggle="collapse" data-parent="#accordion1" href="#collapseTwo1">
-                          <p>Our ethics</p>
-                          </a> </h4>
-                      </div>
-                      <div id="collapseTwo1" class="panel-collapse collapse in">
-                        <div class="panel-body">
-                          <ul style="text-align:left">
-                            <li>
-                              <p>We will keep your medical records confidential.</p>
-                            </li>
-                            <br/>
-                            <li>
-                              <p>MCC is qualified medical person, generally a doctor having BHMS/BAMS/MBBS degree.</p>
-                            </li>
-                            <br/>
-                            <li>
-                              <p>Panel doctors who will actually be giving the second opinion are specialists having MD/MS/DNB or above.</p>
-                            </li>
-                            <br/>
-                            <li>
-                              <p>We strongly discourage taking the treatment from our panel doctors to help us delivering a genuine second opinion.</p>
-                            </li>
-                            <br/>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!--=========== END ABOUT SECTION ================--> 
-
-<!--=========== BEGIN BENEFITS SECTION================-->
-
-<section id="cta-section" class="page text-center">
-  <div class="page-header-wrapper">
-    <div class="container">
-      <div class="page-header text-center wow fadeInUp" data-wow-delay="0.3s">
-        <h3 style="color:#4e7ac7">Benefits</h3>
-        <div class="devider"></div>
-        <p class="subtitle">What are the benefits for you?</p>
-      </div>
-    </div>
-  </div>
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-12 col-md-12">
-        <div class="about_area">
-          <div class="about_content">
-            <div class="row">
-              <div class="col-lg-6 col-md-6 col-sm-12">
-                <div class="about_featured"> </div>
-              </div>
-              <div class="col-lg-12 col-md-12 col-sm-12">
-                <div class="about_featured">
-                  <div class="panel-group" id="accordion1">
-                    <div class="panel panel-default wow fadeInLeft">
-                      <div id="collapseTwo2" class="panel-collapse collapse in">
-                        <div class="panel-body">
-                          <ul style="text-align:left">
-                            <li style="color:#000000">
-                              <p>You will get the experienced medical assistant (MCC) to manage your case end to end. His experience is invaluable in revealing the things which are not possible for non-medico person otherwise. He will help you out in formulating your queries as well.</p>
-                            </li>
-                            <br/>
-                            <hr>
-                            <li style="color:#000000">
-                              <p>The most important benefit is that you will get the opinions from two or more specialists with varied expertise. This is the key of our service that case will be critically analyzed if more than one experts are involved. And the important fact is these specialists will study the case independently and they will not be knowing each other.</p>
-                            </li>
-                            <br/>
-                            <hr>
-                            <li style="color:#000000">
-                              <p>If your medical condition requires opinions from more than two specialists, you will not be charged extra. No hidden costs.</p>
-                            </li>
-                            <br/>
-                            <hr>
-                            <li style="color:#000000">
-                              <p>Most of the specialties will be covered between the price range of Rs. 800 to Rs 2000.</p>
-                            </li>
-                            <br/>
-                            <hr>
-                            <li style="color:#000000">
-                              <p>We don't provide the treatment strictly, so that there is no conflict of interest and you will not get wrong or biased opinion.</p>
-                            </li>
-                            <br/>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!--=========== BEGIN BENEFITS SECTION ================--> 
-
-<!--=========== BEGIN HOW IT WORKS SECTION================-->
-
-<section id="work-section" class="page text-center"> 
-  <!-- Begin page header-->
-  <div class="page-header-wrapper">
-    <div class="container">
-      <div class="page-header text-center wow fadeIn" data-wow-delay="0.2s">
-        <h3 style="color:#4e7ac7">How It Works</h3>
-        <div class="devider"></div>
-        <p class="subtitle">Work Flow</p>
-      </div>
-    </div>
-  </div>
-  <!-- End page header-->
   
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-12 col-md-12">
-        <div class="about_area">
-          <div class="about_content">
-            <div class="row">
-              <div class="col-lg-6 col-md-6 col-sm-12">
-                <div class="about_featured"> </div>
-              </div>
-              <div class="col-lg-12 col-md-12 col-sm-12">
-                <div class="about_featured">
-                  <div class="panel-group" id="accordion3">
-                    <div class="panel panel-default wow fadeInLeft">
-                      <div id="collapseTwo3" class="panel-collapse collapse in">
-                        <div class="panel-body">
-                          <ul style="text-align:center">
-                            <li style="color:#000000">
-                              <p>You can reach us on a phone call or drop an email to initiate the process.</p>
-                            </li>
-                            <br/>
-                            <li style="text-align:center"><i class="fa fa-angle-double-down" style="font-size:25px;color:#4e7ac7;"></i></li>
-                            <li style="color:#000000">
-                              <p>Medical Case Coordinator(MCC) will be assigned to your case who will take care of your complete case from start to end. MCC is the medico person who will assist you to uncover the valuable information about your condition.</p>
-                            </li>
-                            <br/>
-                            <li style="text-align:center"><i class="fa fa-angle-double-down" style="font-size:25px;color:#4e7ac7;"></i></li>
-                            <li style="color:#000000">
-                              <p>MCC will make arrangements to get all your medical records in place and put those in a suitable format so that it can be presented to the expert consultants.</p>
-                            </li>
-                            <br/>
-                            <li style="text-align:center"><i class="fa fa-angle-double-down" style="font-size:25px;color:#4e7ac7;"></i></li>
-                            <li style="color:#000000">
-                              <p>Opiniya will select the best specialists from the panel, after studying your medical requirements (specialty, diagnosis, your queries). Opiniya will choose at least two specialists or more, depending on the case to get the opinion on your case.</p>
-                            </li>
-                            <br/>
-                            <li style="text-align:center"><i class="fa fa-angle-double-down" style="font-size:25px;color:#4e7ac7;"></i></li>
-                            <li style="color:#000000">
-                              <p>MCC will forward your documents and your queries to selected specialists. MCC will keep you updated on the status of your case.</p>
-                            </li>
-                            <br/>
-                            <li style="text-align:center"><i class="fa fa-angle-double-down" style="font-size:25px;color:#4e7ac7;"></i></li>
-                            <li style="color:#000000">
-                              <p>Specialist will review your case and will coordinate with MCC to know anything necessary about your case.</p>
-                            </li>
-                            <br/>
-                            <li style="text-align:center"><i class="fa fa-angle-double-down" style="font-size:25px;color:#4e7ac7;"></i></li>
-                            <li style="color:#000000">
-                              <p>After thorough analysis and comprehensive review of your case, specialist will share their opinion with MCC who in turn will go through all the opinions and form the conclusion.</p>
-                            </li>
-                            <br/>
-                            <li style="text-align:center"><i class="fa fa-angle-double-down" style="font-size:25px;color:#4e7ac7;"></i></li>
-                            <li style="color:#000000">
-                              <p>MCC will provide these opinions and conclusion to you and make sure your all doubts are answered carefully.</p>
-                            </li>
-                            <br/>
-                            <li style="text-align:center"><i class="fa fa-angle-double-down" style="font-size:25px;color:#4e7ac7;"></i></li>
-                            <li style="color:#000000">
-                              <p>And now you are ready with your options to take your treatment to the further level. With no confusion and only certainty.</p>
-                            </li>
-                            <br/>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!--===========END HOW IT WORKS SECTION ================--> 
-
-<!--=========== BEGIN FOOTER SECTION ================-->
-<section id="footer-section">
-  <footer class="footer-container">
+  <!--=========== BEGIN ABOUT SECTION ================-->
+  
+  <section id="about-section" class="page text-center">
     <div class="page-header-wrapper">
       <div class="container">
-        <div class="page-header text-center wow fadeInDown" data-wow-delay="0.4s">
-          <h3 style="color:#4e7ac7">Contact Us</h3>
+        <div class="page-header text-center wow fadeInUp" data-wow-delay="0.3s">
+          <h3 style="color:#4e7ac7">About Us</h3>
           <div class="devider"></div>
-          <p class="subtitle" style="color:#aaaaaa">Let's get in touch</p>
+          <p class="subtitle">Little information</p>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 col-md-12">
+          <div class="about_area"> 
+            <!-- START ABOUT HEADING -->
+            <div class="heading">
+              <p align="justify">Being informed is critical in deciding your medical choice of treatment. And we make sure that you know about your diagnosis and choices for treatment options by providing the expert second opinion on your medical problems. We are specialized in reviewing your current treatment plan and come up with the comprehensive conclusions. Our specialist doctors from the expert panel study your case and make you aware about your options. Currently we are operating in Pune only. We will be coming to your city shortly if you are not from Pune.</p>
+            </div>
+            <br>
+            <br>
+            <br>
+            
+            <!-- START ABOUT CONTENT -->
+            <div class="about_content">
+              <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                  <div class="about_featured">
+                    <div class="panel-group" id="accordion"> 
+                      <!-- START SINGLE FEATURED ITEAM #1-->
+                      <div class="panel panel-default wow fadeInLeft">
+                        <div class="panel-heading">
+                          <h4 class="panel-title"> <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                            <p>When to ask for second opinion -</p>
+                            </a> </h4>
+                        </div>
+                        <div id="collapseOne" class="panel-collapse collapse in">
+                          <div class="panel-body">
+                            <ul style="text-align:left">
+                              <br/>
+                              <li>
+                                <p><i class="glyphicon glyphicon-hand-right"></i> &nbsp;Before having surgery</p>
+                              </li>
+                              <br>
+                              <li>
+                                <p><i class="glyphicon glyphicon-hand-right"></i> &nbsp;New diagnosis</p>
+                              </li>
+                              <br>
+                              <li>
+                                <p><i class="glyphicon glyphicon-hand-right"></i> &nbsp;Costly treatment</p>
+                              </li>
+                              <br>
+                              <li>
+                                <p><i class="glyphicon glyphicon-hand-right"></i> &nbsp;Change in medication</p>
+                              </li>
+                              <br>
+                              <li>
+                                <p><i class="glyphicon glyphicon-hand-right"></i> &nbsp;Planning treatments after surgery</p>
+                              </li>
+                              <br>
+                              <li>
+                                <p><i class="glyphicon glyphicon-hand-right"></i> &nbsp;Whenever you think it is going to affect your health</p>
+                              </li>
+                              <br/>
+                              <br/>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                  <div class="about_featured">
+                    <div class="panel-group" id="accordion1">
+                      <div class="panel panel-default wow fadeInLeft">
+                        <div class="panel-heading">
+                          <h4 class="panel-title"> <a data-toggle="collapse" data-parent="#accordion1" href="#collapseTwo1">
+                            <p>Our ethics</p>
+                            </a> </h4>
+                        </div>
+                        <div id="collapseTwo1" class="panel-collapse collapse in">
+                          <div class="panel-body">
+                            <ul style="text-align:left">
+                              <li>
+                                <p>We will keep your medical records confidential.</p>
+                              </li>
+                              <br/>
+                              <li>
+                                <p>Medical case manager will be handling your case end to end, is a qualified medical person, generally a doctor having BHMS/BAMS/MBBS degree.</p>
+                              </li>
+                              <br/>
+                              <li>
+                                <p>Panel doctors who will actually be giving the second opinion are specialists having MD/MS/DNB or above.</p>
+                              </li>
+                              <br/>
+                              <li>
+                                <p>We strongly discourage taking the treatment from our panel doctors to help us delivering a genuine second opinion.</p>
+                              </li>
+                              <br/>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--=========== END ABOUT SECTION ================--> 
+  
+  <!--=========== BEGIN BENEFITS SECTION================-->
+  
+  <section id="cta-section" class="page text-center">
+    <div class="page-header-wrapper">
+      <div class="container">
+        <div class="page-header text-center wow fadeInUp" data-wow-delay="0.3s">
+          <h3 style="color:#4e7ac7">Benefits</h3>
+          <div class="devider"></div>
+          <p class="subtitle">What are the benefits for you?</p>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 col-md-12">
+          <div class="about_area">
+            <div class="about_content">
+              <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                  <div class="about_featured"> </div>
+                </div>
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                  <div class="about_featured">
+                    <div class="panel-group" id="accordion1">
+                      <div class="panel panel-default wow fadeInLeft">
+                        <div id="collapseTwo2" class="panel-collapse collapse in">
+                          <div class="panel-body">
+                            <ul style="text-align:left">
+                              <li style="color:#000000">
+                                <p>You will get the experienced medical case manager (MCM) to manage your case end to end. His experience is invaluable in revealing the things which are not possible for non-medico person otherwise. He will help you out in formulating your queries as well.</p>
+                              </li>
+                              <br/>
+                              <hr>
+                              <li style="color:#000000">
+                                <p>The most important benefit is that you will get the opinions from two or more specialists with varied expertise. This is the key of our service that, the case will be critically analyzed if more than one experts are involved. And the important fact is, these specialists will study the case independently and they will not be knowing each other.</p>
+                              </li>
+                              <br/>
+                              <hr>
+                              <li style="color:#000000">
+                                <p>If your medical condition requires opinions from more than two specialists, you will not be charged extra. No hidden costs.</p>
+                              </li>
+                              <br/>
+                              <hr>
+                              <li style="color:#000000">
+                                <p>Most of the specialities  will be covered between the price range of Rs. 800 to Rs 2000.</p>
+                              </li>
+                              <br/>
+                              <hr>
+                              <li style="color:#000000">
+                                <p>We don't provide the treatment strictly, so that there is no conflict of interest and you will not get wrong or biased opinion.</p>
+                              </li>
+                              <br/>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--=========== BEGIN BENEFITS SECTION ================--> 
+  
+  <!--=========== BEGIN HOW IT WORKS SECTION================-->
+  
+  <section id="work-section" class="page text-center"> 
+    <!-- Begin page header-->
+    <div class="page-header-wrapper">
+      <div class="container">
+        <div class="page-header text-center wow fadeIn" data-wow-delay="0.2s">
+          <h3 style="color:#4e7ac7">How It Works</h3>
+          <div class="devider"></div>
+          <p class="subtitle">Work Flow</p>
         </div>
       </div>
     </div>
@@ -395,46 +330,136 @@
     
     <div class="container">
       <div class="row">
-        <div class="col-lg-8 col-lg-offset-2 text-center"> 
-          <!--<h2 class="section-heading">Let's Get In Touch!</h2>-->
-          <hr class="primary">
-          <p style="color:#aaaaaa">Anand Park, Pune</p>
-          <br/>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-4 text-center"> <i class="fa fa-globe fa-3x wow bounceIn" data-wow-delay=".1s"></i>
-          <p><a href="http://www.opiniya.com">www.opiniya.com</a></p>
-        </div>
-        <div class="col-lg-4 text-center"> <i class="fa fa-phone fa-3x wow bounceIn"></i>
-          <p style="color:#aaaaaa">123-456-6789</p>
-        </div>
-        <div class="col-lg-4 text-center"> <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
-          <p><a href="mailto:your-email@your-domain.com">consult@opiniya.com</a></p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-8 col-lg-offset-2 text-center"> <br/>
-          <br/>
-          <ul class="list-inline banner-social-buttons">
-            <li> <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i><span class="network-name">Twitter</span></a> </li>
-            <li> <a href="https://www.instagram.com/" class="btn btn-default btn-lg"><i class="fa fa-instagram fa-fw"></i><span class="network-name">Instagram</span></a> </li>
-            <li> <a href="https://www.facebook.com/opiniya.india" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-fw"></i><span class="network-name">Facebook</span></a> </li>
-          </ul>
+        <div class="col-lg-12 col-md-12">
+          <div class="about_area">
+            <div class="about_content">
+              <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                  <div class="about_featured"> </div>
+                </div>
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                  <div class="about_featured">
+                    <div class="panel-group" id="accordion3">
+                      <div class="panel panel-default wow fadeInLeft">
+                        <div id="collapseTwo3" class="panel-collapse collapse in">
+                          <div class="panel-body">
+                            <ul style="text-align:center">
+                              <li style="color:#000000">
+                                <p>You can reach us on a phone call or drop an email to initiate the process.</p>
+                              </li>
+                              <br/>
+                              <li style="text-align:center"><i class="fa fa-angle-double-down" style="font-size:25px;color:#4e7ac7;"></i></li>
+                              <li style="color:#000000">
+                                <p>Medical Case manager (MCM) will be assigned to your case who will take care of your complete case from start to end. MCM is the medico person who will assist you to uncover the valuable information about your condition.</p>
+                              </li>
+                              <br/>
+                              <li style="text-align:center"><i class="fa fa-angle-double-down" style="font-size:25px;color:#4e7ac7;"></i></li>
+                              <li style="color:#000000">
+                                <p>MCM will make arrangements to get all your medical records in place and put those in a suitable format so that it can be presented to the expert consultants.</p>
+                              </li>
+                              <br/>
+                              <li style="text-align:center"><i class="fa fa-angle-double-down" style="font-size:25px;color:#4e7ac7;"></i></li>
+                              <li style="color:#000000">
+                                <p>Opiniya will select the best specialists from the panel, after studying your medical requirements (specialty, diagnosis, your queries). Opiniya will choose at least two specialists or more, depending on the case to get the opinion.</p>
+                              </li>
+                              <br/>
+                              <li style="text-align:center"><i class="fa fa-angle-double-down" style="font-size:25px;color:#4e7ac7;"></i></li>
+                              <li style="color:#000000">
+                                <p>MCM will forward your documents and your queries to selected specialists.MCM will keep you updated on the status of your case.</p>
+                              </li>
+                              <br/>
+                              <li style="text-align:center"><i class="fa fa-angle-double-down" style="font-size:25px;color:#4e7ac7;"></i></li>
+                              <li style="color:#000000">
+                                <p>Specialist will review your case and will coordinate with MCM to know anything necessary about your case.</p>
+                              </li>
+                              <br/>
+                              <li style="text-align:center"><i class="fa fa-angle-double-down" style="font-size:25px;color:#4e7ac7;"></i></li>
+                              <li style="color:#000000">
+                                <p>After thorough analysis and comprehensive review of your case, specialists will share their opinion with MCM who in turn will go through all the opinions and form the conclusion.</p>
+                              </li>
+                              <br/>
+                              <li style="text-align:center"><i class="fa fa-angle-double-down" style="font-size:25px;color:#4e7ac7;"></i></li>
+                              <li style="color:#000000">
+                                <p>MCM will provide these opinions and conclusion to you and make sure your all doubts are answered carefully.</p>
+                              </li>
+                              <br/>
+                              <li style="text-align:center"><i class="fa fa-angle-double-down" style="font-size:25px;color:#4e7ac7;"></i></li>
+                              <li style="color:#000000">
+                                <p>And now you are ready with your options to take your treatment to the further level. With no confusion and only certainty.</p>
+                              </li>
+                              <br/>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-sm-12 footer-bottom">
-          <p class="copyright" style="color:#aaaaaa">&copy;2016&nbsp;&nbsp;<a href="https://www.opiniya.com" style="font-size:20px;">Opiniya</a>.&nbsp;&nbsp;All Rights Reserved.</p>
-          
-          <!--<p class="copyright">Copyright &copy; 2016 - Designed By <a href="https://www.opiniya.com" class="theme-author">Opiniya</a> &amp; Developed by <a href="http://www.opiniya.com/" class="theme-author">Opiniya</a></p>--> 
+  </section>
+  <!--===========END HOW IT WORKS SECTION ================--> 
+  
+  <!--=========== BEGIN FOOTER SECTION ================-->
+  <section id="footer-section">
+    <footer class="footer-container">
+      <div class="page-header-wrapper">
+        <div class="container">
+          <div class="page-header text-center wow fadeInDown" data-wow-delay="0.4s">
+            <h3 style="color:#4e7ac7">Contact Us</h3>
+            <div class="devider"></div>
+            <p class="subtitle" style="color:#aaaaaa">Let's get in touch</p>
+          </div>
         </div>
       </div>
-    </div>
-    <a href="#" class="scrolltotop"><i class="fa fa-arrow-up"></i></a> </footer>
-</section>
+      <!-- End page header-->
+      
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2 text-center"> 
+            <!--<h2 class="section-heading">Let's Get In Touch!</h2>-->
+            <hr class="primary">
+            <p style="color:#aaaaaa">Anand Park, Pune</p>
+            <br/>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 text-center"> <i class="fa fa-globe fa-3x wow bounceIn" data-wow-delay=".1s"></i>
+            <p><a href="http://www.opiniya.com">www.opiniya.com</a></p>
+          </div>
+          <div class="col-lg-4 text-center"> <i class="fa fa-phone fa-3x wow bounceIn"></i>
+            <p style="color:#aaaaaa">123-456-6789</p>
+          </div>
+          <div class="col-lg-4 text-center"> <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
+            <p><a href="mailto:your-email@your-domain.com">consult@opiniya.com</a></p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2 text-center"> <br/>
+            <br/>
+            <ul class="list-inline banner-social-buttons">
+              <li> <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i><span class="network-name">Twitter</span></a> </li>
+              <li> <a href="https://www.instagram.com/" class="btn btn-default btn-lg"><i class="fa fa-instagram fa-fw"></i><span class="network-name">Instagram</span></a> </li>
+              <li> <a href="https://www.facebook.com/opiniya.india" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-fw"></i><span class="network-name">Facebook</span></a> </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-12 footer-bottom">
+            <p class="copyright" style="color:#aaaaaa">&copy;2016&nbsp;&nbsp;<a href="https://www.opiniya.com" style="font-size:20px;">Opiniya</a>.&nbsp;&nbsp;All Rights Reserved.</p>
+            
+            <!--<p class="copyright">Copyright &copy; 2016 - Designed By <a href="https://www.opiniya.com" class="theme-author">Opiniya</a> &amp; Developed by <a href="http://www.opiniya.com/" class="theme-author">Opiniya</a></p>--> 
+          </div>
+        </div>
+      </div>
+      <a href="#" class="scrolltotop"><i class="fa fa-arrow-up"></i></a> </footer>
+  </section>
 </div>
 <!-- Plugins JS --> 
 <script src="inc/jquery/jquery-1.11.1.min.js"></script> 
