@@ -289,15 +289,28 @@ section {
 /* ===== End intro ===== */
 
 /* ===== BEGIN HOME BG IMAGE  ===== */
+.parallax {
+	position: relative;
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	-webkit-background-size: cover;
+  	background-size: cover;
+}
+
 .doctorimg-box {
 	position: relative;
 	height: auto;
 	background-position: top center;
+	height:auto;
+	overflow:hidden;
 	
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	-webkit-background-size: cover;
 	background-size: cover;
+	
+	
 	
 	
 	
