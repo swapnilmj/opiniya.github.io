@@ -303,7 +303,7 @@ section {
 .doctorimg-box {
 	position: relative;
 	height: auto;
-	/*background-image: url(../img/doctorimg.jpg);*/
+	background-image: url(../img/doctorimg.jpg);
 	background-size: auto;
 	background-attachment: scroll;
 	background-position: top center;
