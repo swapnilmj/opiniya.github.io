@@ -264,15 +264,15 @@ section {
 /* ===== Begin intro ===== */
 /* Begin text carousel intro */
 #text-carousel-intro-section {
-	height: 1020px;
+	height: 1000px;
 }
 #text-carousel-intro-section .container {
-	height: 60%;/*--------------------------------Logo Top margin- 60% from top-----------*/
+	height: 75%;/*--------------------------------Logo Top margin- 60% from top-----------*/
 }
 #text-carousel-intro-section .caption {
 	position: relative;
 	top: 50%;
-	margin-top: -50px;
+	margin-top: -70px;
 }
 #text-carousel-intro-section .caption h1 {
 	margin-top: 0;
@@ -868,8 +868,10 @@ p.subtitle {
 /* =====BEGIN Media Query ===== */
 @media(max-width:1199px) {
 ul.banner-social-buttons {
+	
 	margin-top: 15px; /*====-----Footer Social Button =====---*/
 }
+	#text-carousel-intro-section .container { height:45%;}
 }
 
 @media(max-width:767px) {
@@ -881,6 +883,7 @@ ul.banner-social-buttons li {
 ul.banner-social-buttons li:last-child {
 	margin-bottom: 0;
 }
+	#text-carousel-intro-section .container { height:45%;}
 }
 
 /* =====END Footer Social Button Media Query ===== */
