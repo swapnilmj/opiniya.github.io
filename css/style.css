@@ -264,15 +264,15 @@ section {
 /* ===== Begin intro ===== */
 /* Begin text carousel intro */
 #text-carousel-intro-section {
-	height: 980px;
+	height: 1020px;
 }
 #text-carousel-intro-section .container {
-	height: 75%;/*--------------------------------Logo Top margin- 60% from top-----------*/
+	height: 60%;/*--------------------------------Logo Top margin- 60% from top-----------*/
 }
 #text-carousel-intro-section .caption {
 	position: relative;
 	top: 50%;
-	margin-top: -80px;
+	margin-top: -50px;
 }
 #text-carousel-intro-section .caption h1 {
 	margin-top: 0;
