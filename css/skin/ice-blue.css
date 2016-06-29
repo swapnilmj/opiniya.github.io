@@ -11,7 +11,7 @@ a, a:hover, a:focus {
 	color: #254378;
 }
 .navbar-default, .navbar-default.navbar-fixed-top.navbar-shrink {
-  background-color: #1496bc;
+  background-color: #009ddc;
 }
 .navbar-default .navbar-nav > li > a {
 	color: #d4e3fd;
@@ -121,14 +121,14 @@ a, a:hover, a:focus {
 
 /* === Rotate Box === */
 .rotate-box-1.square-icon .rotate-box-icon, .rotate-box-2.square-icon .rotate-box-icon {
-	background-color: #1496bc;
+	background-color: #009ddc;
 }
 
 
 
 /* === Progress Bar === */
 .progress {
-	border: 3px solid #1496bc;
+	border: 3px solid #009ddc;
 	background-color: transparent;
 }
 .progress-bar {
@@ -145,7 +145,7 @@ a, a:hover, a:focus {
 
 /* === Portfolio === */
 .active_prot_menu a, .portfolio_menu ul li a:hover{
-	background: #1496bc !important;
+	background: #009ddc !important;
 	color: #fff !important;
 }
 .portfolio_single_content div{
@@ -163,27 +163,27 @@ a, a:hover, a:focus {
 
 /* === Price === */
 .prices .panel-default .panel-heading {
-	box-shadow: inset 0px 4px 0px #1496bc;
+	box-shadow: inset 0px 4px 0px #009ddc;
 }
 .prices .price-box-featured .panel-heading {
-	background-color: #1496bc;
+	background-color: #009ddc;
 	color: #FFF;
 }
 .prices .price-box-featured .panel-footer {
-	box-shadow: inset 0px -4px 0px #1496bc;
+	box-shadow: inset 0px -4px 0px #009ddc;
 }
 .prices .price-box-featured .price-box-ribbon {
-	color: #1496bc;
+	color: #009ddc;
 }
 
 
 
 /* === Contact === */
 #contact-section {
-	background-color: #1496bc;
+	background-color: #009ddc;
 }
 #contact-section .contact .contact-form button {
-	background-color: #1496bc;
+	background-color: #009ddc;
 }
 #contact-section .contact .contact-form button:hover {
 	background-color: #59baf6;
@@ -193,7 +193,7 @@ a, a:hover, a:focus {
 
 /* === Footer === */
 .footer-top {
-	background-color: #1496bc;
+	background-color: #009ddc;
 }
 .footer {
 	background-color: #2d3035;
@@ -212,7 +212,7 @@ a, a:hover, a:focus {
 
 /* === Buttons === */
 .btn-default, .btn-default:focus, .btn-default.focus, .btn-default:active, .btn-default.active { 
-	background: #1496bc;
+	background: #009ddc;
 	color: #fff;
 }
 .btn-default:hover {
