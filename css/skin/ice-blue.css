@@ -1,8 +1,6 @@
-
 a, a:hover, a:focus {
 	color: #025b8f;
 }
-
 /* === Navbar === */
 .navbar-default .navbar-brand, .navbar-default .navbar-brand:focus {
 	color: #025b8f;
@@ -11,7 +9,7 @@ a, a:hover, a:focus {
 	color: #254378;
 }
 .navbar-default, .navbar-default.navbar-fixed-top.navbar-shrink {
-  background-color: #0079c0;
+	background-color: #0079c0;
 }
 .navbar-default .navbar-nav > li > a {
 	color: #d4e3fd;
@@ -44,10 +42,8 @@ a, a:hover, a:focus {
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
 	background-color: transparent;
-	
 }
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li.active > a {
-	
 }
 /* Navbar inverse */
 .navbar-inverse {
@@ -93,39 +89,27 @@ a, a:hover, a:focus {
 .navbar-inverse.navbar-fixed-top.navbar-shrink {
 	background-color: #111;
 }
-
 .navbar-inverse.navbar-fixed-top.navbar-shrink .navbar-nav > li > a {
 	color: #CCC;
 }
-.navbar-inverse.navbar-fixed-top.navbar-shrink .navbar-nav > .active > a, .navbar-inverse.navbar-fixed-top.navbar-shrink .navbar-nav > .active > a:hover, .navbar-inverse.navbar-fixed-top.navbar-shrink .navbar-nav > .active > a:focus,
-.navbar-inverse.navbar-fixed-top.navbar-shrink .navbar-nav > li > a:hover, .navbar-inverse.navbar-fixed-top.navbar-shrink .navbar-nav > li > a:focus, .navbar-inverse.navbar-fixed-top.navbar-shrink .navbar-nav > li.active > a {
+.navbar-inverse.navbar-fixed-top.navbar-shrink .navbar-nav > .active > a, .navbar-inverse.navbar-fixed-top.navbar-shrink .navbar-nav > .active > a:hover, .navbar-inverse.navbar-fixed-top.navbar-shrink .navbar-nav > .active > a:focus, .navbar-inverse.navbar-fixed-top.navbar-shrink .navbar-nav > li > a:hover, .navbar-inverse.navbar-fixed-top.navbar-shrink .navbar-nav > li > a:focus, .navbar-inverse.navbar-fixed-top.navbar-shrink .navbar-nav > li.active > a {
 	background-color: transparent;
 	color: #254378;
 }
-
 .navbar-fixed-top.navbar-shrink .navbar-brand, .navbar-fixed-top.navbar-shrink .navbar-brand:focus, body.boxed .body .navbar-inverse.navbar-transparent.navbar-shrink .navbar-brand {
 	color: #CCC;
 }
 .navbar-fixed-top.navbar-shrink .navbar-brand:hover {
 	color: #254378;
 }
-
-
-
 /* === Text Carousel === */
 #text-carousel-intro-section {
 	background-color: #25282a;
 }
-
-
-
 /* === Rotate Box === */
 .rotate-box-1.square-icon .rotate-box-icon, .rotate-box-2.square-icon .rotate-box-icon {
 	background-color: #0079c0;
 }
-
-
-
 /* === Progress Bar === */
 .progress {
 	border: 3px solid #0079c0;
@@ -134,33 +118,22 @@ a, a:hover, a:focus {
 .progress-bar {
 	background-color: #025b8f;
 }
-
-
-
 /* === CTA Section, Social & Partners === */
 #cta-section, #partners-section, #social-section {
 	background: #f8f8f8 url('../../img/pat-bg.png') repeat;
 }
-
-
 /* === Portfolio === */
-.active_prot_menu a, .portfolio_menu ul li a:hover{
+.active_prot_menu a, .portfolio_menu ul li a:hover {
 	background: #0079c0 !important;
 	color: #fff !important;
 }
-.portfolio_single_content div{
+.portfolio_single_content div {
 	background: none repeat scroll 0 0 rgba( 78, 122, 199, 0.95);
 }
-
-
-
 /* === Team === */
 .team-hover {
 	background: none repeat scroll 0 0 rgba( 78, 122, 199, 0.9);
 }
-
-
-
 /* === Price === */
 .prices .panel-default .panel-heading {
 	box-shadow: inset 0px 4px 0px #0079c0;
@@ -175,9 +148,6 @@ a, a:hover, a:focus {
 .prices .price-box-featured .price-box-ribbon {
 	color: #0079c0;
 }
-
-
-
 /* === Contact === */
 #contact-section {
 	background-color: #0079c0;
@@ -188,9 +158,6 @@ a, a:hover, a:focus {
 #contact-section .contact .contact-form button:hover {
 	background-color: #025b8f;
 }
-
-
-
 /* === Footer === */
 .footer-top {
 	background-color: #0079c0;
@@ -199,19 +166,16 @@ a, a:hover, a:focus {
 	background-color: #2d3035;
 }
 #subscribe > button[type="submit"] {
-    background: none repeat scroll 0 0 #025b8f;
+	background: none repeat scroll 0 0 #025b8f;
 }
 #subscribe > button[type="submit"]:hover {
-    background: none repeat scroll 0 0 #254378;
+	background: none repeat scroll 0 0 #254378;
 }
-.tweet-content span{
-	color:#254378;
+.tweet-content span {
+	color: #254378;
 }
-
-
-
 /* === Buttons === */
-.btn-default, .btn-default:focus, .btn-default.focus, .btn-default:active, .btn-default.active { 
+.btn-default, .btn-default:focus, .btn-default.focus, .btn-default:active, .btn-default.active {
 	background: #0079c0;
 	color: #fff;
 }
@@ -235,30 +199,22 @@ a, a:hover, a:focus {
 	background-color: #D81508;
 	color: #FFF;
 }
-
-
-
 /* === To Top === */
 .scrolltotop {
 	color: #025b8f;
 	border: 2px solid #025b8f;
 }
 
-
-
 /* Small Devices, Tablets */
 @media only screen and (max-width : 767px) {
-
 .navbar-collapse {
-		background-color: #025b8f;
-		border-color: #fff !important;
-	}
+	background-color: #025b8f;
+	border-color: #fff !important;
+}
 .navbar-default.navbar-shrink .navbar-nav > li.active > a {
 	box-shadow: none !important;
 }
 .navbar-nav > li > a:hover, .navbar-nav > li > a:focus, .navbar-nav > li.active > a {
 	color: #254378;
 }
-
-
 }
