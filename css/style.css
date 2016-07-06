@@ -599,7 +599,7 @@ a.rotate-box-1:hover, a.rotate-box-2:hover {
 /***** Footer *****/
 footer {
 	padding: 40px 0 0 0;
-	background: #524F4F;
+	background: #34495e;
 	color: #aaa;
 	text-align: left;
 }
@@ -656,7 +656,7 @@ footer h3 {
 	margin-top: 60px;
 	/*padding-top: 15px;
 	padding-bottom: 25px;*/
-	background: #3d3d3d;
+	background: #2c3e50;
 	text-align: center;
 }
 .footer-bottom a {
