@@ -500,6 +500,18 @@
   ga('send', 'pageview');
 
 </script>
+<script>
+window.onload = function() {
+  if(navigator.userAgent.match(/iPhone|iPad|iPod/i)) {
+    window.location = "fb://page/289023311447886"; 
+    setTimeout(function(){
+        window.location = "https://www.facebook.com/Opiniya-289023311447886/";
+    }, 50);   
+  } else {
+    window.location = "https://www.facebook.com/Opiniya-289023311447886/";
+  }
+}
+</script>
 
 </body>
 </html>
