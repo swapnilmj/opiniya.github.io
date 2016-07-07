@@ -507,7 +507,12 @@
 		
 		
 		window.onload = function() {
-  if(navigator.userAgent.match(/iPhone|iPad|iPod/i/android/i)) {
+  if(! navigator.userAgent.match(/Android/i) &&
+            ! navigator.userAgent.match(/webOS/i) &&
+            ! navigator.userAgent.match(/iPhone/i) &&
+            ! navigator.userAgent.match(/iPod/i) &&
+            ! navigator.userAgent.match(/iPad/i) &&
+            ! navigator.userAgent.match(/Blackberry/i) ) {
     window.location = "fb://page/289023311447886"; 
     setTimeout(function(){
         window.location = "https://www.facebook.com/Opiniya-289023311447886/";
