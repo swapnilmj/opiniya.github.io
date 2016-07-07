@@ -502,5 +502,34 @@
 </script>
 <!--==========  END GOOGLE ANALYTICS SCRIPT ==========-->
 
+
+<script>
+	var button = document.getElementById("facebookbtn") ;
+	button.onclick = function () {
+
+window.onload = function() {
+	if (navigator.userAgent.match(/iPad/i))
+{
+	 window.location = "fb://page/289023311447886"; 
+    // do tablet stuff
+	
+} else if(navigator.userAgent.match(/Android|webOS|iPhone|iPod|Blackberry/i) )
+{
+	 window.location = "fb://page/289023311447886"; 
+    // do mobile stuff
+	
+} else {
+	window.location = "https://www.facebook.com/Opiniya-289023311447886/";
+    // do desktop stuff
+}
+	
+	
+	
+
+}
+	
+};
+</script>
+
 </body>
 </html>
