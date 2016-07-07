@@ -456,7 +456,7 @@
             <ul class="list-inline banner-social-buttons">
               <!--<li> <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i><span class="network-name">Twitter</span></a> </li>--> 
               <!--<li> <a href="https://www.instagram.com/" class="btn btn-default btn-lg"><i class="fa fa-instagram fa-fw"></i><span class="network-name">Instagram</span></a> </li>-->
-              <li> <a href="fb://page/289023311447886" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-fw"></i><span class="network-name">Facebook</span></a> </li>
+              <li> <a href="fb://page/289023311447886" id="facebookbtn" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-fw"></i><span class="network-name">Facebook</span></a> </li>
             </ul>
           </div>
         </div>
@@ -500,6 +500,42 @@
   ga('send', 'pageview');
 
 </script>
+<script>
+	var button = document.getElementById("facebookbtn");
+	
+	button.onclick = function () {
+		
+		
+		window.onload = function() {
+  if(navigator.userAgent.match(/iPhone|iPad|iPod/i)) {
+    window.location = "fb://page/289023311447886"; 
+    setTimeout(function(){
+        window.location = "https://www.facebook.com/Opiniya-289023311447886/";
+    }, 50);   
+  } else {
+    window.location = "https://www.facebook.com/Opiniya-289023311447886/";
+  }
+}
+		
+		
+		
+};
+
+
+</script>
+
+<!--<script>
+window.onload = function() {
+  if(navigator.userAgent.match(/iPhone|iPad|iPod/i)) {
+    window.location = "<TWITTER MOBILE DEEPLINK>"; 
+    setTimeout(function(){
+        window.location = "<LINK TO TWITTER ONLINE>";
+    }, 50);   
+  } else {
+    window.location = "<LINK TO TWITTER ONLINE>";
+  }
+}
+</script>-->
 
 </body>
 </html>
