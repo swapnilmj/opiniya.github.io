@@ -493,7 +493,7 @@
 <!--==========  DEVICE DETECTION SCRIPT FOR FACEBOOK LINK ==========-->
 <script>
 var fbLink = function() {
-  if(navigator.userAgent.match(/Android/i)) {
+  if(navigator.userAgent.match(/Android|BlackBerry|Tablet|Mobile|iPhone|iPad|iPod|Opera Mini|IEMobile/i)) {
     window.location = "fb://page/289023311447886"; 
     setTimeout(function(){
         window.location = "https://www.facebook.com/Opiniya-289023311447886/";
