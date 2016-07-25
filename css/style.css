@@ -628,6 +628,7 @@ facebookbtn {
 	border-radius: 100%;
 	-webkit-animation: bouncee 2.0s infinite ease-in-out;
 	animation: bouncee 2.0s infinite ease-in-out;
+	background-color: #0079c0;    /*-------------Loader  Dot Color-Theme Color------------*/
 }
 .dot2 {
 	top: auto;
