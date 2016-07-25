@@ -47,7 +47,6 @@
 <link rel="stylesheet" href="inc/bootstrap/css/bootstrap.min.css">
 <!--<link rel="stylesheet" href="inc/animations/css/animate.min.css">-->
 <link rel="stylesheet" href="css/animate.css">
-
 <link rel="stylesheet" href="inc/font-awesome-4.6.3/css/font-awesome.min.css">
 <!--========== FONT ICONS ==========-->
 <link rel="stylesheet" href="inc/owl-carousel/css/owl.carousel.css">
@@ -61,6 +60,7 @@
 <!--========== SKIN CSS ==========-->
 <link rel="stylesheet" href="css/skin/ice-blue.css">
 <link rel="stylesheet" href="css/skin/social-icon-color.css">
+<link rel="stylesheet" href="css/theme-color.css">
 
 <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -72,7 +72,12 @@
 </head>
 
 <body data-spy="scroll" data-target="#main-navbar">
-<div class="page-loader"></div>
+<div id="loader">
+  <div class="spinner">
+    <div class="dot1"></div>
+    <div class="dot2"></div>
+  </div>
+</div>
 <!-- Display loading image while page loads -->
 <div class="body"> 
   
@@ -114,7 +119,7 @@
       <div class="caption text-center text-white" data-stellar-ratio="0.5">
         <div id="owl-intro-text" class="owl-carousel">
           <div class="item"><img src="img/logo.svg" alt=""/>
-            <h2 style="color:#2c3e50">second opinion on your medical condition</h2>
+            <h2 style="color:#2c3e50">Second Opinion On Your Medical Condition</h2>
             <div class="extra-space-l"></div>
             <a class="btn btn-blank page-scroll" href="#about-section">
             <p>Know More!</p>
@@ -457,8 +462,8 @@
           <div class="col-lg-8 col-lg-offset-2 text-center"> <br/>
             <br/>
             <ul class="social-network social-circle">
-                <li><a style="cursor:pointer" onclick="fbLink()" id="facebookbtn" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-              </ul>
+              <li><a style="cursor:pointer" onclick="fbLink()" id="facebookbtn" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+            </ul>
           </div>
         </div>
       </div>
@@ -487,6 +492,8 @@
 <script src="inc/jquery.easing.min.js"></script> 
 <script src="inc/jquery.counterup.min.js"></script> 
 <script src="inc/smoothscroll.js"></script> 
+<script type="text/javascript" src="js/script.js"></script> 
+
 <!--========== THEME JS ==========--> 
 <script src="js/theme.js"></script> 
 
